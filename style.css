@@ -1,0 +1,104 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Introductory Video Section */
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #e8f4fc;
+}
+
+.intro video {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+/* Main Content Sections */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content-section {
+    max-width: 800px;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.content-section h2 {
+    color: #0073e6;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Resources Section */
+.resources {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+.resources h2 {
+    font-size: 1.8rem;
+    color: #0073e6;
+}
+
+.resources ul {
+    list-style: none;
+}
+
+.resources li {
+    margin: 0.5rem 0;
+}
+
+.resources a {
+    color: #0073e6;
+    text-decoration: none;
+}
