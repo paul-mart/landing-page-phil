@@ -27,6 +27,11 @@ fontsize: 2.2rem;
 margin-bottom: 3%;
 }
 
+h2 {
+fontsize: 1.85rem;
+margin-bottom:3.5%;
+}
+
 header p {
     font-size: 1.2rem;
     color: #555;
