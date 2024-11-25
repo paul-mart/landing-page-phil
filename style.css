@@ -50,6 +50,7 @@ header p {
 
 img {
 width: -webkit-fill-available;
+    margin-bottom:1%;
 }
 /* Introductory Video Section */
 .intro {
